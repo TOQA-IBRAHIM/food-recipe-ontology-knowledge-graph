@@ -1,0 +1,807 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/user/ontologies/2025/0/untitled-ontology-4"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/user/ontologies/2025/0/untitled-ontology-4">
+    <Prefix name="" IRI="http://www.semanticweb.org/user/ontologies/2025/0/untitled-ontology-4/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Aluminum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Anodized_Aluminum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Baking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Barbeque"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blanching"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Boiling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bread_Ingredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Breakfast"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Carbon_Steel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cast_Iron"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ceramic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chef_Recipe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Complex_Recipe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cooking_Method"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cooking_Time"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cookware"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Copper"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cube"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dairy_Ingredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Deep_Frying"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dessert_Recipe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dinner"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Drink"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Enameled_Cast_Iron"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Family_Recipe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fat_Ingredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fish_Ingredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fruit_Ingredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grain_Ingredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grilling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Imperial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ingredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Instructions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lunch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Main_Course_Recipe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Meal_Type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Measurement_Unit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Meat_Ingredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Metric"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mix"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nonstick"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Oil_Ingredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Online_Recipe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Poaching"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Poultry_Ingredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Preparation_Technique"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Preson"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Quick_Recipe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Recipe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Recipe_Complexity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Recipe_Source"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Roasting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Simple_Recipe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Slow-Cooked_Recipe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stainless_Steel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Steaming"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sweet_Ingredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Usual_Recipe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vegetable_Ingredient"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#CookingRecipe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#HasRecipeType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Serves_with"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Tool"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#author"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#cookingMethod"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDifficultyLevel"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPrepTime"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasRecipeInstructions"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_ingredient"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_quantity_value"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#wasDerivedFrom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#wasGivenFrom"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#HasDrinkName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#HasName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#HasTime"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#HasUnit"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#HasValue"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#RecipeName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#WaitTime"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#cookTime"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasRecipeInstructions"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Beach_pizza"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bean_Salad"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cadbury_Clusters"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cadbury_Creme_Egg"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Café_de_olla"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Campa_Cola"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Carla_Hall"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Carme_Ruscalleda"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Карла_Халь"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#カルメ・ルスカイェーダ"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Aluminum"/>
+        <Class IRI="#Cookware"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anodized_Aluminum"/>
+        <Class IRI="#Cookware"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Baking"/>
+        <Class IRI="#Cooking_Method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Barbeque"/>
+        <Class IRI="#Cooking_Method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blanching"/>
+        <Class IRI="#Cooking_Method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boiling"/>
+        <Class IRI="#Cooking_Method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bread_Ingredient"/>
+        <Class IRI="#Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Breakfast"/>
+        <Class IRI="#Meal_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Carbon_Steel"/>
+        <Class IRI="#Cookware"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cast_Iron"/>
+        <Class IRI="#Cookware"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ceramic"/>
+        <Class IRI="#Cookware"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chef_Recipe"/>
+        <Class IRI="#Recipe_Source"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chop"/>
+        <Class IRI="#Preparation_Technique"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Complex_Recipe"/>
+        <Class IRI="#Recipe_Complexity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Copper"/>
+        <Class IRI="#Cookware"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cube"/>
+        <Class IRI="#Preparation_Technique"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dairy_Ingredient"/>
+        <Class IRI="#Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Deep_Frying"/>
+        <Class IRI="#Cooking_Method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dessert_Recipe"/>
+        <Class IRI="#Recipe"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dice"/>
+        <Class IRI="#Preparation_Technique"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dinner"/>
+        <Class IRI="#Meal_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Enameled_Cast_Iron"/>
+        <Class IRI="#Cookware"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Family_Recipe"/>
+        <Class IRI="#Recipe_Source"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fat_Ingredient"/>
+        <Class IRI="#Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fish_Ingredient"/>
+        <Class IRI="#Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fruit_Ingredient"/>
+        <Class IRI="#Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grain_Ingredient"/>
+        <Class IRI="#Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grilling"/>
+        <Class IRI="#Cooking_Method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Imperial"/>
+        <Class IRI="#Measurement_Unit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lunch"/>
+        <Class IRI="#Meal_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Main_Course_Recipe"/>
+        <Class IRI="#Recipe"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Meat_Ingredient"/>
+        <Class IRI="#Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Metric"/>
+        <Class IRI="#Measurement_Unit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mix"/>
+        <Class IRI="#Preparation_Technique"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nonstick"/>
+        <Class IRI="#Cookware"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oil_Ingredient"/>
+        <Class IRI="#Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Online_Recipe"/>
+        <Class IRI="#Recipe_Source"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Poaching"/>
+        <Class IRI="#Cooking_Method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Poultry_Ingredient"/>
+        <Class IRI="#Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Quick_Recipe"/>
+        <Class IRI="#Cooking_Time"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Roasting"/>
+        <Class IRI="#Cooking_Method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Simple_Recipe"/>
+        <Class IRI="#Recipe_Complexity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Slow-Cooked_Recipe"/>
+        <Class IRI="#Cooking_Time"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stainless_Steel"/>
+        <Class IRI="#Cookware"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Steaming"/>
+        <Class IRI="#Cooking_Method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sweet_Ingredient"/>
+        <Class IRI="#Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Usual_Recipe"/>
+        <Class IRI="#Recipe_Complexity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vegetable_Ingredient"/>
+        <Class IRI="#Ingredient"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Breakfast"/>
+        <Class IRI="#Dinner"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Breakfast"/>
+        <Class IRI="#Lunch"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Dinner"/>
+        <Class IRI="#Lunch"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Recipe"/>
+        <NamedIndividual IRI="#Beach_pizza"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Recipe"/>
+        <NamedIndividual IRI="#Bean_Salad"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dessert_Recipe"/>
+        <NamedIndividual IRI="#Cadbury_Clusters"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sweet_Ingredient"/>
+        <NamedIndividual IRI="#Cadbury_Creme_Egg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Drink"/>
+        <NamedIndividual IRI="#Café_de_olla"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Drink"/>
+        <NamedIndividual IRI="#Campa_Cola"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Preson"/>
+        <NamedIndividual IRI="#Carla_Hall"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Preson"/>
+        <NamedIndividual IRI="#Carme_Ruscalleda"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Preson"/>
+        <NamedIndividual IRI="#Карла_Халь"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Preson"/>
+        <NamedIndividual IRI="#カルメ・ルスカイェーダ"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasRecipeType"/>
+        <NamedIndividual IRI="#Beach_pizza"/>
+        <NamedIndividual IRI="#Beach_pizza"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_ingredient"/>
+        <NamedIndividual IRI="#Cadbury_Creme_Egg"/>
+        <NamedIndividual IRI="#Cadbury_Creme_Egg"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#RecipeName"/>
+        <NamedIndividual IRI="#Beach_pizza"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#RecipeName"/>
+        <NamedIndividual IRI="#Bean_Salad"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#RecipeName"/>
+        <NamedIndividual IRI="#Cadbury_Clusters"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HasName"/>
+        <NamedIndividual IRI="#Café_de_olla"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HasName"/>
+        <NamedIndividual IRI="#Campa_Cola"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HasName"/>
+        <NamedIndividual IRI="#Carla_Hall"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HasName"/>
+        <NamedIndividual IRI="#Carme_Ruscalleda"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HasName"/>
+        <NamedIndividual IRI="#Карла_Халь"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HasName"/>
+        <NamedIndividual IRI="#カルメ・ルスカイェーダ"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#HasRecipeType"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#Serves_with"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#has_ingredient"/>
+    </SymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#CookingRecipe"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#author"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#has_quantity_value"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#wasGivenFrom"/>
+    </AsymmetricObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#CookingRecipe"/>
+        <Class IRI="#Preson"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#HasRecipeType"/>
+        <Class IRI="#Recipe"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Serves_with"/>
+        <Class IRI="#Dessert_Recipe"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Tool"/>
+        <Class IRI="#Recipe"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#author"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#author"/>
+            <Class IRI="#Recipe"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#cookingMethod"/>
+        <Class IRI="#Recipe"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDifficultyLevel"/>
+        <Class IRI="#Recipe"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPrepTime"/>
+        <Class IRI="#Recipe"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRecipeInstructions"/>
+        <Class IRI="#Recipe"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_ingredient"/>
+        <Class IRI="#Recipe"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_quantity_value"/>
+        <Class IRI="#Recipe"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#wasDerivedFrom"/>
+        <Class IRI="#Recipe"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#wasGivenFrom"/>
+        <Class IRI="#Recipe"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CookingRecipe"/>
+        <Class IRI="#Recipe"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#HasRecipeType"/>
+        <Class IRI="#Meal_Type"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Serves_with"/>
+        <Class IRI="#Drink"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Tool"/>
+        <Class IRI="#Cookware"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#author"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#author"/>
+            <Class IRI="#Preson"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#cookingMethod"/>
+        <Class IRI="#Cooking_Method"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasDifficultyLevel"/>
+        <Class IRI="#Recipe_Complexity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPrepTime"/>
+        <Class IRI="#Cooking_Time"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasRecipeInstructions"/>
+        <Class IRI="#Instructions"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_ingredient"/>
+        <Class IRI="#Recipe"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_quantity_value"/>
+        <Class IRI="#Measurement_Unit"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#wasDerivedFrom"/>
+        <Class IRI="#Recipe_Source"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#wasGivenFrom"/>
+        <Class IRI="#Preson"/>
+    </ObjectPropertyRange>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#HasDrinkName"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#HasName"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#HasDrinkName"/>
+        <Class IRI="#Drink"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#HasName"/>
+        <Class IRI="#Preson"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#HasTime"/>
+        <Class IRI="#Recipe"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#HasUnit"/>
+        <Class IRI="#Measurement_Unit"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#HasValue"/>
+        <Class IRI="#Measurement_Unit"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#RecipeName"/>
+        <Class IRI="#Recipe"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#WaitTime"/>
+        <Class IRI="#Recipe"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#cookTime"/>
+        <Class IRI="#Cooking_Time"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasRecipeInstructions"/>
+        <Class IRI="#Instructions"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#HasDrinkName"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#HasName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#HasTime"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#HasUnit"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#HasValue"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#RecipeName"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#WaitTime"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#cookTime"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasRecipeInstructions"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
